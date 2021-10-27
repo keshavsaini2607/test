@@ -1,0 +1,25 @@
+.footerContainer {
+    background: #232283;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topContent {
+    padding-top: 6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bottomContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.bottomContent > div span {
+    margin-left: 2rem;
+}

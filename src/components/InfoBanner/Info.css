@@ -1,0 +1,29 @@
+.infoContainer {
+    width: 100vw;
+    text-align: center;
+    background: #F7F7F7;
+    padding: 2rem;
+}
+
+.rowInfoContainer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+    background: #F7F7F7;
+    padding: 2rem;
+}
+
+.infoContainer h1, .rowInfoContainer h1 {
+    color: #4753BD;
+    font-size: 3.3rem;
+}
+
+.infoContainer span, .rowInfoContainer span {
+    color:  #7D7D7D;
+    font-size: 1.7rem;
+}
+
+.rowInfoContainer span {
+    width: 50%;
+}

@@ -1,0 +1,47 @@
+.container {
+    background-color: #ffffff;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    width: 50vw;
+    height: 100vh;
+    background-color: #ddd;
+    position: absolute;
+    right: -10vw;
+    top: -35vh;
+    border-radius: 90px;
+    transform: rotate(50deg);
+    background-image: 
+              linear-gradient(45deg, rgba(143, 148, 242, 0.8), 
+              rgba(143, 148, 242, 0.58)), url(
+'https://cdn.pixabay.com/photo/2014/05/02/21/49/laptop-336373_960_720.jpg');
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-size: cover;
+            text-align: center;
+}
+
+.content {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h1 {
+    font-size: 5rem;
+    padding-left: 4rem;
+    color: #4753BD;
+    text-transform: capitalize;
+}
+
+.content span {
+    padding-left: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #4D4D4D;
+    
+}

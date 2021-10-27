@@ -1,0 +1,43 @@
+.navContainer {
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.navHeading {
+    color: #7575CD;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.navList {
+    z-index: 10000 !important;
+    display: flex;
+    align-items: center;
+}
+
+.navList span {
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    z-index: 10 !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+#active {
+    color: #38346B;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
